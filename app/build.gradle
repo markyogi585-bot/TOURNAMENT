@@ -18,6 +18,12 @@ repositories {
 }
 
 android {
+    android {
+    compileSdkVersion 35
+    buildToolsVersion "34.0.0"
+    namespace "com.di.battlemaniaV5"    // ← YE ADD KARO
+
+    packagingOptions {
     compileSdkVersion 35              // 30 → 35 (latest)
     buildToolsVersion "34.0.0"        // Updated
 
